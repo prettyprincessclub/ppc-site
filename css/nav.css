@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-lvl-nav {
+  background-color: #d1ebff;
+}
+
+.top-lvl-nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.top-lvl-nav li {
+  font-family: Georgia, serif;
+  width: 25%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.top-lvl-nav a {
+  text-decoration: none;
+  color: #070005;
+  display: block;
+  transition: .3s background-color;
+}
+
+.top-lvl-nav a:hover {
+  background-color: #eeffff
+}
+
+.top-lvl-nav a.active {
+  background-color: #ffeaf8;
+  color: #151719;
+  cursor: default;
+}

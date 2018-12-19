@@ -1,0 +1,30 @@
+body {
+  background-color: #d1ebff;
+  color: #070005;
+  font-family: Georgia, serif;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3, h4 {
+
+}
+
+a {
+  color: #070005;
+}
+
+a:active, a.active {
+  text-decoration: none;
+  color: #151719;
+}
+
+a:visited {
+  color: #151719;
+}
