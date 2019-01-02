@@ -21,7 +21,7 @@ For information about the organization putting on the event, the type of fashion
 Where do I sign up?
 -------------------
 
-Sign up now on [Eventbrite! (https://www.eventbrite.com/e/ppc-presents-royal-vegas-retreat-2020-tickets-52897344381)](https://www.eventbrite.com/e/ppc-presents-royal-vegas-retreat-2020-tickets-52897344381") Sales start on December 14, 2018. If you can't snag a ticket now, don't worry! We are doing a special ticket drive for early adopters. More ticket types will go on sale starting early 2019, at which point we'll have a pricing schedule as well. In the meantime, follow us on [Facebook!](https://www.facebook.com/events/2249243358685227/)
+Sign up now on [Eventbrite! (https://www.eventbrite.com/e/ppc-presents-royal-vegas-retreat-2020-tickets-52897344381)](https://www.eventbrite.com/e/ppc-presents-royal-vegas-retreat-2020-tickets-52897344381") Sales start on December 14, 2018. If you can't snag a ticket now, don't worry! We are doing a special ticket drive for early adopters. More ticket types will go on sale starting early 2019, at which point we'll have a pricing schedule as well. In the meantime, follow us on [Facebook!](https://www.facebook.com/events/277370609594805/)
 
 I have a question!
 ------------------
