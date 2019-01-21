@@ -5,6 +5,7 @@ body {
 
 .top-lvl-nav {
   background-color: #d1ebff;
+  box-shadow: none;
 }
 
 .top-lvl-nav ul {
@@ -20,23 +21,37 @@ body {
   height: 50px;
   line-height: 50px;
   font-size: 1.4em;
-  display: inline-block;
   margin-right: -4px;
 }
 
-.top-lvl-nav a {
+.top-lvl-nav li a {
   text-decoration: none;
   color: #070005;
   display: block;
   transition: .3s background-color;
 }
 
-.top-lvl-nav a:hover {
+.top-lvl-nav li a:hover {
   background-color: #eeffff
 }
 
-.top-lvl-nav a.active {
+.top-lvl-nav li a.active {
   background-color: #ffeaf8;
   color: #151719;
   cursor: default;
 }
+
+.navbar-toggle {
+  border: none;
+  background-color: inherit;
+}
+
+.brand {
+  font-size: 3rem;
+  color: #070005;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+

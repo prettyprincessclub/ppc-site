@@ -17,14 +17,6 @@ h3, h4 {
 }
 
 a {
-  color: #070005;
-}
-
-a:active, a.active {
-  text-decoration: none;
-  color: #151719;
-}
-
-a:visited {
-  color: #151719;
+  color: #0000ad;
+  text-decoration: underline;
 }
