@@ -6,10 +6,6 @@ Pretty Princess Club, LLC is planning an event:
 
 ##### November 20 - 22 2020
 
-#### Founders' Weekend
-
-##### November 15 - 17 2019
-
 Stay tuned for more details, including:
 
 *   Fundraising initiatives
