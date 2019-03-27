@@ -1,22 +1,27 @@
 body {
-  background-color: #d1ebff;
+  /*background-color: #d1ebff;*/
   color: #070005;
-  font-family: Georgia, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-
+  font-family: 'Gabriela', serif;
+  display:block;
+  width:100%;
 }
 
 h2 {
-
+  font-family: 'Gabriela', serif;
 }
 
 h3, h4 {
-
+  font-family: 'Gabriela', serif;
 }
 
 a {
   color: #0000ad;
   text-decoration: underline;
+}
+p {
+  width:100%;
 }
