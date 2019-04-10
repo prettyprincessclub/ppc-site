@@ -103,9 +103,19 @@
   line-height: 1;
   margin-bottom: 10px;
 }
+.logo-img {
+  margin-top: -10px;
+}
 @media only screen and (max-width: 766px) {
   .logo {
     float: none;
+  }
+  .logo-img {
+    margin-top:-20px;
+  }
+  .mobile-toggle {
+    display: block;
+    margin: 15px 0 0;
   }
 }
 
@@ -258,7 +268,7 @@ h1 {
 p {
   margin-bottom: 20px;
   font-size: 17px;
-  line-height: 2;
+  line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
@@ -269,14 +279,14 @@ p {
 
 .hero {
   position: relative;
-  background: url(https://media.discordapp.net/attachments/538825259818680322/540753712969416713/princessclb.png) no-repeat center center fixed;
+  background: url(http://moniquelopez.net/wp-content/uploads/2019/04/temp-rvr-banner.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   /*background-color:#DDEFFC;*/
   text-align: center;
   color: #fff;
-  padding-top: 110px;
+  /*padding-top: 110px;*/
   min-height: 500px;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
@@ -284,15 +294,15 @@ p {
 .hero h1 {
   font-size: 50px;
   line-height: 1.3;
-  color: #f7d7e6;
+  color: #fff;
   line-height: 1.3;
-  text-shadow: -1px -1px 0 #f6a5c2, 1px -1px 0 #f6a5c2, -1px 1px 0 #f6a5c2, 1px 1px 0 #f6a5c2;
+/*  text-shadow: -1px -1px 0 #f6a5c2, 1px -1px 0 #f6a5c2, -1px 1px 0 #f6a5c2, 1px 1px 0 #f6a5c2;*/
   text-transform: none;
 }
 .hero h1 span {
   font-size: 25px;
-  color: #e8f380;
-  border-bottom: 2px solid #e8f380;
+  color: #cfb678;
+  border-bottom: 2px solid #cfb678;
   padding-bottom: 12px;
   line-height: 3;
 }
@@ -424,6 +434,20 @@ li:hover ul, li:active ul{
     display:block;
 }
 
+hr {
+  border: 1px solid #D0EAF8;
+  width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+
+.summary-section {
+  line-height: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+
 </style>
 <!-- <nav class="navbar top-lvl-nav">
   <span class="brand">Pretty Princess Club</span>
@@ -442,8 +466,9 @@ li:hover ul, li:active ul{
   <header class="main_h">
 
       <div class="row nav-row">
-          <a class="logo" href="#">PPC</a>
-
+        <a class="logo-link" href="./index.html">
+<img src="http://moniquelopez.net/wp-content/uploads/2019/04/PrincessClockLogo-04.svg" class="logo logo-img" alt="PPC">
+</a>
           <div class="mobile-toggle">
               <span></span>
               <span></span>
@@ -479,17 +504,21 @@ li:hover ul, li:active ul{
 
   <div class="hero">
 
-  <h1><span>The Event</span><br>Royal Vegas Retreat 2020</h1>
+  <h1><span>The Event</span><br>Royal Vegas Retreat<br>Nov 20-22 2020<br>MGM Grand, Las Vegas</h1>
 
 
 </div>
 
 <div class="row content">
 
-<h1 class="sec02">Royal Vegas Retreat</h1>
-<h1>MGM Grand</h1>
-<h1>Las Vegas, NV</h1>
-<h1>November 20 - November 22, 2020</h1>
+
+  <div class="summary-section">
+    <h2>Royal Vegas Retreat</h2>
+<h3>MGM Grand Las Vegas, NV</h3>
+<h3>November 20 - November 22, 2020</h3>
+</div>
+
+<hr>
 <h2>What is it?</h2>
 <p>It's an event for you and every fashionista who loves EGL. It's a weekend of shopping, learning, and partying with your Best Fashion Friends. It's a time to unwind, relax, and engage in your favorite hobby. It's a place where you can discuss EGL fashion with serious, like-minded individuals.</p>
 <p>For information about the organization putting on the event, the type of fashion we admire, and more, please visit <a href="./faq.html">our FAQ</a>.</p>

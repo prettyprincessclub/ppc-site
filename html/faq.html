@@ -102,9 +102,19 @@
   line-height: 1;
   margin-bottom: 10px;
 }
+.logo-img {
+  margin-top: -10px;
+}
 @media only screen and (max-width: 766px) {
   .logo {
     float: none;
+  }
+  .logo-img {
+    margin-top: -20px;
+  }
+  .mobile-toggle {
+    display: block;
+    margin: 15px 0 0;
   }
 }
 
@@ -257,7 +267,7 @@ h1 {
 p {
   margin-bottom: 20px;
   font-size: 17px;
-  line-height: 2;
+  line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
@@ -268,17 +278,17 @@ p {
 
 .hero {
   position: relative;
-  background: url(https://media.discordapp.net/attachments/538825259818680322/540753712969416713/princessclb.png) no-repeat center center fixed;
+  background: url(http://moniquelopez.net/wp-content/uploads/2019/04/ppc-clock-hero.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   /*background-color:#DDEFFC;*/
   text-align: center;
   color: #fff;
-  padding-top: 110px;
-  min-height: 500px;
-  letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  min-height: 500px;
+  padding-top: 230px;
 }
 .hero h1 {
   font-size: 50px;
@@ -423,6 +433,29 @@ li:hover ul, li:active ul{
     display:block;
 }
 
+h4 {
+   font-size: 1.4rem;
+   margin-bottom:0;
+}
+
+
+.section-header {
+  line-height: 1.8;
+  color: #f6a5c2;
+  display: block;
+    margin-block-start: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+hr {
+  border: 1px solid #D0EAF8;
+  width: 100%;
+        margin: auto;
+        margin-top: 5%;
+}
+
 </style>
 <!-- <nav class="navbar top-lvl-nav">
   <span class="brand">Pretty Princess Club</span>
@@ -441,7 +474,9 @@ li:hover ul, li:active ul{
   <header class="main_h">
 
       <div class="row nav-row">
-          <a class="logo" href="#">PPC</a>
+        <a class="logo-link" href="./index.html">
+<img src="http://moniquelopez.net/wp-content/uploads/2019/04/PrincessClockLogo-04.svg" class="logo logo-img" alt="PPC">
+</a>
 
           <div class="mobile-toggle">
               <span></span>
@@ -469,16 +504,17 @@ li:hover ul, li:active ul{
 
   <div class="hero">
 
-  <h1><span>Some text can go here?</span><br>FAQ</h1>
+  <h1><span>Pretty Princess Club</span><br>FAQ</h1>
 
 
 </div>
 
 <div class="row content">
 
-<h1 class="sec02"> <h1>Frequently Asked Questions</h1>
-
-<h2>Pretty Princess Club, LLC</h2>
+<h1 class="sec01">
+<h1>Frequently Asked Questions</h1>
+<hr>
+<h2 class="section-header">Pretty Princess Club, LLC</h2>
 <h3>What's with the name?</h3>
 <p>It's definitely a bit of internet snark that appealed to Nifty Nif, PPC, LLC HBIC. Nif also loves modern TLDs, and princess.club was a lot more expensive. Coincidentally, Pretty Princess Club was available for registration in Nifty Nif's home state.</p>
 <h3>Who is PPC?</h3>
@@ -487,7 +523,9 @@ li:hover ul, li:active ul{
 <p>Nifty is a software engineer by day. She also likes to play pinball, cook and bake, watch cartoons, and make costumes.</p>
 <h3>What else does PPC do?</h3>
 <p>That remains to be seen! We incorporated in order to put on the <a href="./vegas.html">Royal Vegas Retreat</a>. Perhaps someday, pending the success of RVR, PPC will expand and help other Lolitas put on events.</p>
-<h2>EGL Fashion</h2>
+
+<hr>
+<h2 class="section-header">EGL Fashion</h2>
 <h3>What is EGL?</h3>
 <p>EGL is short for &quot;Elegant Gothic Lolita.&quot; &quot;Lolita Fashion&quot; is another name for it. It's a style of dress that originated in Japan and is associated with Harajuku fashion culture.</p>
 <h3>I need an example.</h3>
@@ -499,7 +537,9 @@ li:hover ul, li:active ul{
 </ul>
 <h3>I am an expert in EGL. You got something wrong!</h3>
 <p>Thanks, friend! Reach out to us and give us a hand: <a href="./contact.html">Contact Us</a>.</p>
-<h2>Royal Vegas Retreat 2020</h2>
+
+<hr>
+<h2 class="section-header">Royal Vegas Retreat 2020</h2>
 <h3>The Event</h3>
 <h4>When is it?</h4>
 <p>Royal Vegas Retreat will take place November 20 - 22, 2020.</p>
@@ -515,7 +555,9 @@ li:hover ul, li:active ul{
 <p>Are you interested in showcasing your business or talents at Royal Vegas Retreat? <a href="./contact.html">Contact Us!</a></p>
 <h3>Volunteering and Sponsorship</h3>
 <p>Are you interested in lending your skills to the success of Royal Vegas Retreat? <a href="./contact.html">Contact Us!</a></p>
-<h2>Founders' Weekend 2019</h2>
+
+<hr>
+<h2 class="section-header">Founders' Weekend 2019</h2>
 <h3>What is Founders' Weekend?</h3>
 <p>Founders' Weekend 2019 is a chance for Nifty and up to 50 of her most trusted advisers to walk the con venue, discuss logistics, and make big decisions about the content and style of the con.</p>
 <h3>When is it?</h3>
@@ -536,7 +578,9 @@ li:hover ul, li:active ul{
 <li>Entertainment and food on your own or separate from the group</li>
 <li>Your own gambling expenses</li>
 </ul>
-<h2>Policies and Regulations</h2>
+
+<hr>
+<h2 class="section-header">Policies and Regulations</h2>
 <h3>Code of Conduct</h3>
 <p>Coming soon!</p>
 <h2>Want to know more?</h2>
