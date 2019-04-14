@@ -57,7 +57,7 @@ We will be at the [MGM Grand Hotel and Casino, Las Vegas](https://www.mgmgrand.c
 
 ### Registration
 
-Register now on [Eventbrite](https://www.eventbrite.com/e/ppc-presents-royal-vegas-retreat-2020-tickets-52897344381)! Ticket sales start December 14, 2018. If you can't get a ticket right away, don't worry! We'll be introducing new ticket tiers in early 2019.
+Registration opens November 2019.  We will release more information about registration dates, the hotel room block, and ticket prices between now and November.
 
 ### Schedule and Programming
 
@@ -71,39 +71,20 @@ Are you interested in showcasing your business or talents at Royal Vegas Retreat
 
 Are you interested in lending your skills to the success of Royal Vegas Retreat? [Contact Us!](./contact.html)
 
-Founders' Weekend 2019
-----------------------
 
-### What is Founders' Weekend?
-
-Founders' Weekend 2019 is a chance for Nifty and up to 50 of her most trusted advisers to walk the con venue, discuss logistics, and make big decisions about the content and style of the con.
-
-### When is it?
-
-Founders' Weekend will be November 15 - 17, 2019. It's at the same venue as RVR: MGM Grand, Las Vegas.
-
-### How do I get an invite?
-
-There are a few ways:
-
-*   Buy a Founders' ticket during Kickstarter sales.
-*   Offer to volunteer as con staff and buy any ticket to RVR.
-*   Offer to volunteer as a panelist and buy any ticket to RVR.
-
-### Why do I have to buy a ticket to RVR in order to go to Founders' Weekend?
-
-At Founders' Weekend, we hope to come to some consensus on the aesthetic, content, and experience of RVR. If you're not going to RVR, why do you care?
-
-### How much does it cost?
-
-The cost of your hotel room, some food and beverages, and some entertainment will be covered by your Kickstarter donation or volunteer commitment. You will be personally liable for:
-
-*   Airfare and transportation (except on group outings)
-*   Entertainment and food on your own or separate from the group
-*   Your own gambling expenses
 
 Policies and Regulations
 ------------------------
+
+### Dress Code Policy
+
+We at PPC are committed to putting on a dedicated EGL fashion event.
+
+Attendees must wear J-fashion to participate at the event.  This includes but is not limited to: Lolita/EGL, Ouji, Aristocrat/EGA, Mori-kei, Fairy-kei, Decora, Visual-kei, Otome, Gyaru, J-Punk, J-Goth.  Japanese as well as Western formalwear (e.g. a three-piece suit) are also allowed.
+
+Cosplay, steampunk, and European historical re-enactment costumes do not fit the theme of this event, and as such are not allowed.
+
+If you have any questions about the dress code, please feel free to [contact us](./contact.html) with any questions.  Our staff at the event are happy to assist as well, and they will have the final say when considering whether a guest's attire is appropriate for the event.
 
 ### Code of Conduct
 

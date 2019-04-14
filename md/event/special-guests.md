@@ -1,0 +1,1 @@
+We will be working with [Fake Star USA](https://fakestarusa.com/) to secure the best special guests in EGL fashion!  Stay tuned as we release details about guests closer to the event.
