@@ -155,32 +155,32 @@ nav button {
 }
 
 .container_list
-	{display:block;position:relative;float:left}
+  {display:block;position:relative;float:left}
 
 .content_list
-	{display:none;position:absolute;z-index:10; }
+  {display:none;position:absolute;z-index:10; }
 
 button.btnList{
-	margin:0;
-	border:none;
-	outline:none;
-	cursor:pointer
-	}
+  margin:0;
+  border:none;
+  outline:none;
+  cursor:pointer
+  }
   .acc
-	{display:none}
+  {display:none}
 
 .content_list:before,
 h2:before,
 h2:after
-	{content:"";display:block;position:absolute}
+  {content:"";display:block;position:absolute}
 
 
 .content_list
-	{background:#fff;min-width:145px;top:45px; border:1px solid #f5f5f5;}
+  {background:#fff;min-width:145px;top:45px; border:1px solid #f5f5f5;}
 
 
 .content_list.left:before
-	{left:0;
+  {left:0;
       width: 8px;
       top: -8px;
       border-left: 8px solid transparent;
@@ -189,22 +189,22 @@ h2:after
   }
 
 .content_list.center
-	{left:-65px}
+  {left:-65px}
 
 .content_list.center:before
-	{left:50%;transform:translate(-50%,0)}
+  {left:50%;transform:translate(-50%,0)}
 
 .content_list.right,
 .content_list.right:before
-	{right:0}
+  {right:0}
 
 .content_list:before{
-	width:8px;
-	top:-8px;
-	border-left:8px solid transparent;
-	border-right:8px solid transparent;
-	border-bottom:8px solid #fff
-	}
+  width:8px;
+  top:-8px;
+  border-left:8px solid transparent;
+  border-right:8px solid transparent;
+  border-bottom:8px solid #fff
+  }
 
 #sub1
 {
@@ -249,9 +249,9 @@ p.sub-menu a {
 
 
 @keyframes buble{
-	from{transform:rotate(45deg) translate(-50%,0) scale(.8,.8)}
-	to{transform:rotate(45deg) translate(-50%,0) scale(1,1)}
-	}
+  from{transform:rotate(45deg) translate(-50%,0) scale(.8,.8)}
+  to{transform:rotate(45deg) translate(-50%,0) scale(1,1)}
+  }
 
   /*
   When the "Button List" clicked, the "content_list" will be replaced with the "show_list".
@@ -260,7 +260,7 @@ p.sub-menu a {
 
 
 [class*="show"]
-  	{display:block}
+    {display:block}
 
 .show_list{
   text-align: left;
@@ -268,14 +268,14 @@ p.sub-menu a {
 }
 
 @keyframes height{
-  	from{padding:0;opacity:0}
-  	to{padding:20px 0;opacity:1}
-  	}
+    from{padding:0;opacity:0}
+    to{padding:20px 0;opacity:1}
+    }
 
 @keyframes width{
-  	from{width:0;opacity:0}
-  	to{width:150px;opacity:1}
-  	}
+    from{width:0;opacity:0}
+    to{width:150px;opacity:1}
+    }
 
 
 * {
@@ -548,41 +548,41 @@ hr {
       }
 
       .btnList
-      		{width:100%;}
+          {width:100%;}
 
-      	.drop
-      		{display:none}
+        .drop
+          {display:none}
 
-      	.acc
-      		{display:inline-block}
+        .acc
+          {display:inline-block}
 
         .content_list {
-      		width:100%;
-      		top:0;
-      		position:relative;
-      		float:left
-      		}
+          width:100%;
+          top:0;
+          position:relative;
+          float:left
+          }
 
 
-      	.content_list.left,
-      	.content_list.center,
-      	.content_list.right
-      		{left:0;right:0}
+        .content_list.left,
+        .content_list.center,
+        .content_list.right
+          {left:0;right:0}
 
-      	.content_list.left:before,
-      	.content_list.center:before,
-      	.content_list.right:before
-      		{left:50%;transform:translate(-50%,0)}
+        .content_list.left:before,
+        .content_list.center:before,
+        .content_list.right:before
+          {left:50%;transform:translate(-50%,0)}
 
-      	/* In small screen, when the "Button Nav" clicked, the "container_menu" will be replaced with the "show_menu" */
+        /* In small screen, when the "Button Nav" clicked, the "container_menu" will be replaced with the "show_menu" */
 
-      	.show_menu{
-      		background:#1a1a1a;
-      		width:100%;
-      		top:45px;
-      		display:block;
-      		position:absolute
-      		}
+        .show_menu{
+          background:#1a1a1a;
+          width:100%;
+          top:45px;
+          display:block;
+          position:absolute
+          }
           .show_list {
             box-shadow:none;
             text-align: center;
@@ -638,13 +638,13 @@ hr {
               <p class="sub-menu">
                <a href="../vegas.html">RVR Home</a></br>
               <a href="./event-faq.html" >Event FAQ</a></br>
-              <a href="./programming.html" class="active">Programming and Schedule</a></br>
+              <a href="./programming.html">Programming and Schedule</a></br>
               <a href="./reg.html">Registration</a></br>
               <a href="./venue.html">Room Block and Venue</a></br>
               <a href="./special-guests.html">Special Guests</a></br>
               <a href="./tourists.html">Tourists</a></br>
               <a href="./vendors.html">Vendors</a></br>
-              <a href="./volunteers.html">Volunteers</a>
+              <a href="./volunteers.html" class="active">Volunteers</a>
             </p>
             </div>
         </li>
@@ -676,7 +676,7 @@ hr {
 
   <div class="hero">
 
-  <h1><span>Royal Vegas Retreat</span><br>Programming</h1>
+  <h1><span>Royal Vegas Retreat</span><br>Volunteers</h1>
 
 
 </div>
@@ -684,60 +684,26 @@ hr {
 <div class="row content">
 
   <h1 class="sec01">
-  <h1>RVR Programming</h1>
+  <h1>Volunteer at Royal Vegas Retreat</h1>
   <hr>
-  <p>We're planning an incredible event stacked with fashion shows, a tea party, a swap meet, EGL trivia, games, panels, and shopping.</p>
-  <p>We will release more information about official event programming in 2020, including special guest panels and VIP events.  Stay tuned!</p>
-  <p>Check out our tentative schedule below - subject to change prior to event.</p>
-  <h2 class="section-header">Day 1</h2>
-  <h3 class="section-header">Friday, November 20 2020</h3>
-  <h4 class="section-header">Daytime</h4>
-  <ul>
-    <li>Shopping</li>
-    <li>Scavenger hunt</li>
-    <li>Fashion Shows</li>
-    <li>Panels</li>
-  </ul>
-  <h4 class="section-header">Evening</h4>
-  <ul>
-    <li>Coord Contests</li>
-    <li>Trivia</li>
-    <li>Special Guest and VIP Events</li>
-  </ul>
-  <h2 class="section-header">Day 2</h2> 
-  <h3 class="section-header">Saturday, November 21 2020</h3>
-  <h4 class="section-header">Daytime</h4>
-  <ul>
-    <li>Shopping</li>
-    <li>Swap Meet</li>
-    <li>Fashion Shows</li>
-    <li>Panels</li>
-  </ul>
-  <h4 class="section-header">Evening</h4>
-  <ul>
-    <li>Coord Contests</li>
-    <li>Special Guest and VIP Events</li>
-    <li>Dance</li>
-  </ul>
-  <h2 class="section-header">Day 3</h2>
-  <h3 class="section-header">Sunday, November 22 2020</h3>
-  <h4 class="section-header">Daytime</h4>
-  <ul>
-    <li>Shopping</li>
-    <li>Tea Party (included with all GA tickets)</li>
-    <li>Panels</li>
-  </ul>
-  <hr>
-
-  <h1 class="sec01">
-  <h1>RVR Schedule</h1>
-  <hr>
-  <p>We will release the official schedule in October 2020.  Stay tuned!</p>
-  
+  <p>We need your help to make this event as fabulous as possible!</p>
+  <p>Sign up to volunteer at Royal Vegas Retreat 2020 now: <a href="https://forms.gle/eeqKQQVkdQtdBKLs7">https://forms.gle/eeqKQQVkdQtdBKLs7</a></p>
+  <p>We will accept volunteer applications on a rolling basis until August 2020, so sign up early, and tell your friends!</p>
+  <p>Volunteers can sign up to assist in one of many areas, including:
+    <ul>
+      <li>Registration</li>
+      <li>Fashion show coordination (separate from modeling - we will release model applications in early 2020)</li>
+      <li>Remote vending</li>
+      <li>VIP guest experience</li>
+      <li>Advertising and outreach in your area</li>
+      <li>...and more!</li>
+    </ul>
+  <p>We are thrilled to offer our volunteers free general admission tickets in exchange for their work. Volunteers will be responsible for their own travel and accommodations, and must complete at least 8 hours of work to qualify.</p>
+  <p>If we accept your application, we will reach out to you with more details about your commitment and which domain you will work in.</p>
+  <p>Thank you so much! We can't wait to work with you at Royal Vegas Retreat 2020.</p>
   <hr>
 
 </div>
-
 <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="../../js/popper.min.js"></script>
 <script type="text/javascript" src="../../js/bootstrap.min.js"></script>

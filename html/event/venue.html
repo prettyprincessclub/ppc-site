@@ -155,32 +155,32 @@ nav button {
 }
 
 .container_list
-	{display:block;position:relative;float:left}
+  {display:block;position:relative;float:left}
 
 .content_list
-	{display:none;position:absolute;z-index:10; }
+  {display:none;position:absolute;z-index:10; }
 
 button.btnList{
-	margin:0;
-	border:none;
-	outline:none;
-	cursor:pointer
-	}
+  margin:0;
+  border:none;
+  outline:none;
+  cursor:pointer
+  }
   .acc
-	{display:none}
+  {display:none}
 
 .content_list:before,
 h2:before,
 h2:after
-	{content:"";display:block;position:absolute}
+  {content:"";display:block;position:absolute}
 
 
 .content_list
-	{background:#fff;min-width:145px;top:45px; border:1px solid #f5f5f5;}
+  {background:#fff;min-width:145px;top:45px; border:1px solid #f5f5f5;}
 
 
 .content_list.left:before
-	{left:0;
+  {left:0;
       width: 8px;
       top: -8px;
       border-left: 8px solid transparent;
@@ -189,22 +189,22 @@ h2:after
   }
 
 .content_list.center
-	{left:-65px}
+  {left:-65px}
 
 .content_list.center:before
-	{left:50%;transform:translate(-50%,0)}
+  {left:50%;transform:translate(-50%,0)}
 
 .content_list.right,
 .content_list.right:before
-	{right:0}
+  {right:0}
 
 .content_list:before{
-	width:8px;
-	top:-8px;
-	border-left:8px solid transparent;
-	border-right:8px solid transparent;
-	border-bottom:8px solid #fff
-	}
+  width:8px;
+  top:-8px;
+  border-left:8px solid transparent;
+  border-right:8px solid transparent;
+  border-bottom:8px solid #fff
+  }
 
 #sub1
 {
@@ -249,9 +249,9 @@ p.sub-menu a {
 
 
 @keyframes buble{
-	from{transform:rotate(45deg) translate(-50%,0) scale(.8,.8)}
-	to{transform:rotate(45deg) translate(-50%,0) scale(1,1)}
-	}
+  from{transform:rotate(45deg) translate(-50%,0) scale(.8,.8)}
+  to{transform:rotate(45deg) translate(-50%,0) scale(1,1)}
+  }
 
   /*
   When the "Button List" clicked, the "content_list" will be replaced with the "show_list".
@@ -260,7 +260,7 @@ p.sub-menu a {
 
 
 [class*="show"]
-  	{display:block}
+    {display:block}
 
 .show_list{
   text-align: left;
@@ -268,14 +268,14 @@ p.sub-menu a {
 }
 
 @keyframes height{
-  	from{padding:0;opacity:0}
-  	to{padding:20px 0;opacity:1}
-  	}
+    from{padding:0;opacity:0}
+    to{padding:20px 0;opacity:1}
+    }
 
 @keyframes width{
-  	from{width:0;opacity:0}
-  	to{width:150px;opacity:1}
-  	}
+    from{width:0;opacity:0}
+    to{width:150px;opacity:1}
+    }
 
 
 * {
@@ -326,7 +326,7 @@ p {
 
 .hero {
   position: relative;
-  background: url(http://moniquelopez.net/wp-content/uploads/2019/04/temp-rvr-banner.png) no-repeat center center fixed;
+  background: url(../temp-rvr-banner.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -548,41 +548,41 @@ hr {
       }
 
       .btnList
-      		{width:100%;}
+          {width:100%;}
 
-      	.drop
-      		{display:none}
+        .drop
+          {display:none}
 
-      	.acc
-      		{display:inline-block}
+        .acc
+          {display:inline-block}
 
         .content_list {
-      		width:100%;
-      		top:0;
-      		position:relative;
-      		float:left
-      		}
+          width:100%;
+          top:0;
+          position:relative;
+          float:left
+          }
 
 
-      	.content_list.left,
-      	.content_list.center,
-      	.content_list.right
-      		{left:0;right:0}
+        .content_list.left,
+        .content_list.center,
+        .content_list.right
+          {left:0;right:0}
 
-      	.content_list.left:before,
-      	.content_list.center:before,
-      	.content_list.right:before
-      		{left:50%;transform:translate(-50%,0)}
+        .content_list.left:before,
+        .content_list.center:before,
+        .content_list.right:before
+          {left:50%;transform:translate(-50%,0)}
 
-      	/* In small screen, when the "Button Nav" clicked, the "container_menu" will be replaced with the "show_menu" */
+        /* In small screen, when the "Button Nav" clicked, the "container_menu" will be replaced with the "show_menu" */
 
-      	.show_menu{
-      		background:#1a1a1a;
-      		width:100%;
-      		top:45px;
-      		display:block;
-      		position:absolute
-      		}
+        .show_menu{
+          background:#1a1a1a;
+          width:100%;
+          top:45px;
+          display:block;
+          position:absolute
+          }
           .show_list {
             box-shadow:none;
             text-align: center;
@@ -617,8 +617,8 @@ hr {
   <header class="main_h">
 
       <div class="row nav-row">
-        <a class="logo-link" href="./index.html">
-<img src="http://moniquelopez.net/wp-content/uploads/2019/04/PrincessClockLogo-04.svg" class="logo logo-img" alt="PPC">
+        <a class="logo-link" href="../index.html">
+<img src="../PrincessClockLogo-04.svg" class="logo logo-img" alt="PPC">
 </a>
           <div class="mobile-toggle">
               <span></span>
@@ -638,17 +638,20 @@ hr {
               <p class="sub-menu">
                <a href="../vegas.html">RVR Home</a></br>
               <a href="./event-faq.html" >Event FAQ</a></br>
-              <a href="./programming.html" >Programming</a></br>
+              <a href="./programming.html" >Programming and Schedule</a></br>
               <a href="./reg.html" >Registration</a></br>
-              <a href="./schedule.html" class="active">Schedule</a></br>
-              <a href="./special-guests.html">Special Guests</a></br>
-              <a href="./tourists.html">Tourists</a>
+              <a href="./venue.html" class="active">Room Block and Venue</a></br>
+              <a href="./special-guests.html" >Special Guests</a></br>
+              <a href="./tourists.html">Tourists</a></br>
+              <a href="./vendors.html">Vendors</a></br>
+              <a href="./volunteers.html">Volunteers</a>
             </p>
             </div>
         </li>
-
+            <li>   <a href="../about.html">About PPC</a></li>
             <li>   <a href="../faq.html">FAQ</a></li>
             <li>   <a href="../contact.html" >Contact Us</a></li>
+            <li>   <a href="https://prettyprincessclub.substack.com/" >Blog</a></li>
 
           </ul>
           </nav>
@@ -673,7 +676,7 @@ hr {
 
   <div class="hero">
 
-  <h1><span>Royal Vegas Retreat</span><br>Schedule</h1>
+  <h1><span>Royal Vegas Retreat</span><br>Venue</h1>
 
 
 </div>
@@ -681,11 +684,19 @@ hr {
 <div class="row content">
 
   <h1 class="sec01">
-  <h1>RVR Schedule</h1>
+  <h1>The MGM Grand Las Vegas</h1>
   <hr>
-  <p>We will release the official schedule in October 2020.  Stay tuned!</p>
-  <p>If you’re interested in volunteering or becoming a panelist, please <a href="../contact.html">contact us.</a></p>
+  <p>We can't wait to welcome you to the <a href="https://mgmgrand.mgmresorts.com/en.html">MGM Grand Las Vegas</a>, in the heart of the Vegas Strip.</p>
+  <p>Our room block is <b>open!</b> We are excited to offer a group rate starting at $129/night for a standard room. You can book via <a href="https://book.passkey.com/go/royalvegas20">Passkey</a> here: <a href="https://book.passkey.com/go/royalvegas20">https://book.passkey.com/go/royalvegas20</a> </p>
 
+  <p>Visit the <a href="https://mgmgrand.mgmresorts.com/en.html">MGM Grand</a> site to learn more about the amenities available at the venue.</p>
+
+  <p>Wondering what adventures await you on the Vegas Strip? Visit our <a href="./tourists.html">Tourism recommendations</a> for our favorite things to do on the strip.</p>
+
+  <img class="img-fluid" src="../images/mgm-grand/mgm-grand-meetings-conference-center-rendering-at-night.jpg" />
+  <img class="img-fluid" src="../images/mgm-grand/mgm-grand-meetings-conference-center-artwork.jpg" />
+  <img class="img-fluid" src="../images/mgm-grand/mgm-grand-meetings-conference-center-large-ballroom.jpg" />
+  <img class="img-fluid" src="../images/mgm-grand/mgm-grand-meetings-conference-center-lobby-area.jpg" />
   <hr>
 
 </div>
