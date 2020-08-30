@@ -1,1 +1,0 @@
-Registration will offocially open in November 2019.  Stay tuned!

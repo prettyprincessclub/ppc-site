@@ -1,1 +1,0 @@
-Coming soon!  See our [main FAQ](../faq.html) for now. 
