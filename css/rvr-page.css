@@ -318,3 +318,8 @@ hr {
       padding:0 0 15px;
     }
 }
+@media (max-width: 978px) {
+  .hero h1 {
+    padding:20px 0 0;
+  }
+}
