@@ -45,6 +45,7 @@ p {
 }
 
 .hero {
+  margin-top: 70px;
   position: relative;
   background: url(../temp-rvr-banner.png) no-repeat center top fixed;
   -webkit-background-size: cover;
@@ -320,6 +321,7 @@ hr {
 }
 @media (max-width: 978px) {
   .hero h1 {
-    padding:20px 0 0;
+    line-height: 1.1;
+    padding: 0px;
   }
 }
