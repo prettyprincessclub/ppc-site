@@ -320,6 +320,10 @@ hr {
     }
 }
 @media (max-width: 978px) {
+  .hero {
+    background-color: #602020;
+    background-image: none;
+  }
   .hero h1 {
     line-height: 1.1;
     padding: 0px;
