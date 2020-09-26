@@ -128,7 +128,7 @@ p {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #e9f5fd;
+  background-color: #284568;
   text-align: center;
 }
 
@@ -142,12 +142,13 @@ p {
   width: 50%;
   font-size: 14px;
   text-align: left;
+  color: #fff;
 }
 .social-block {
   text-align: left;
   font-size: 14px;
   margin:0;
-
+  color: #fff;
 }
 .footer-social-icons {
     width: 250px;
@@ -177,7 +178,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: ##e9f5fd;
+    background-color: #284568;
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
@@ -190,7 +191,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: ##e9f5fd;
+    background-color: #284568;
 }
 .fa-twitter:hover {
     background-color: #00aced;
@@ -203,7 +204,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: ##e9f5fd;
+    background-color: #284568;
 }
 .fa-instagram:hover {
     background-color: #D92C7B;
