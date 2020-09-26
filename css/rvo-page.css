@@ -14,6 +14,11 @@ body {
 }
 
 a {
+  color: #602020;
+  text-decoration: underline;
+}
+nav ul a:hover,nav ul a.active {
+  color:#602020;
   text-decoration: none;
 }
 

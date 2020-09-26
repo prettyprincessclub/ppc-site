@@ -76,13 +76,15 @@ nav ul li {
 
 
 nav ul a, span {
-  color: #888888;
+  color: #525252;
   text-transform: uppercase;
   font-size: 13px;
   font-family: 'Gabriela', serif;
+  text-decoration: none;
 }
 nav ul a:hover,nav ul a.active {
   color:#f6a5c2;
+  text-decoration: none;
 }
 
 nav button {
