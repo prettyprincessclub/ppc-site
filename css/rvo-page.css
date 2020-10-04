@@ -120,6 +120,9 @@ p {
     margin-inline-end: 0px;
     text-align: center;
 }
+.affiliate a {
+  text-decoration: none;
+}
 
 .footer {
   position: absolute;
