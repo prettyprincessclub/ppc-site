@@ -81,6 +81,10 @@ p {
   line-height: 3;
 }
 
+h6 {
+  font-family: "Gabriela", serif;
+}
+
 
 
 @-webkit-keyframes scroll {
