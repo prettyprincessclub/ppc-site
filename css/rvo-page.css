@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5{
 }
 h6 {
   line-height: 2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gabriela', serif;
 }
 h1 {
   font-size: 30px;
@@ -80,11 +80,6 @@ p {
   padding-bottom: 12px;
   line-height: 3;
 }
-
-.section-header h6 {
-  font-family: "Gabriela", serif;
-}
-
 
 
 @-webkit-keyframes scroll {
