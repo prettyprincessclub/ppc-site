@@ -228,6 +228,9 @@ hr {
 }
 
 @media only screen and (max-width: 766px) {
+  .mobilehide {
+    display: none;
+  }
   nav {
     width: 100%;
   }
