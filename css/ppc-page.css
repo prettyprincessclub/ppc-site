@@ -40,6 +40,13 @@ p {
   width: 100%;
 }
 
+.content li {
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
 .content {
   padding: 50px 2% 150px;
 }
